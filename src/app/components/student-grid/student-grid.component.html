@@ -1,0 +1,14 @@
+<html lang="en">
+<body>
+  <main>
+    <nav>
+    <ul>
+      <li><a><p-button (onClick)="getAllUsers()">Get Users</p-button></a></li>
+    </ul>
+  </nav>
+  <ag-grid-angular 
+    style="width: 100%; height: 500px;" 
+    class="ag-theme-alpine.css"
+    [rowData]="rowDataUser" 
+    [columnDefs]="columnDefsUser">
+  </ag-grid-angular>

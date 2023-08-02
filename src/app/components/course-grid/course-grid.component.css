@@ -1,0 +1,8 @@
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-alpine.css';
+
+ul li{
+   display: inline-block;
+   padding: 10px;  
+   position: relative;
+}
